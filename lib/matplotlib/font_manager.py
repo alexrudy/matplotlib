@@ -2,7 +2,7 @@
 A module for finding, managing, and using fonts across platforms.
 
 This module provides a single :class:`FontManager` instance that can
-be shared across backends and platforms.  The :func:`findfont`
+be shared across backends and platforms.  The :meth:`~FontManager.findfont`
 function returns the best TrueType (TTF) font file in the local or
 system font path that matches the specified :class:`FontProperties`
 instance.  The :class:`FontManager` also handles Adobe Font Metrics
